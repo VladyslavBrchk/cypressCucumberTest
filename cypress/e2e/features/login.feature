@@ -3,7 +3,8 @@ Feature: Login Feature
   Scenario: Sucess Login Test
   Given A user opens the login page
   When A user login with the username "standard_user" and password "secret_sauce"
-  Then A user is redirected to Inventory and logged in
+  Then A user is redirected to "Inventory Page"
+  And A user see items and cart
 
   Scenario: Failed Login Test
   Given A user opens the login page

@@ -1,6 +1,9 @@
 {
     "loginPage": "https://www.saucedemo.com/",
+    "inventoryPage": "https://www.saucedemo.com/inventory.html",
     "twitterPage": "https://twitter.com/saucelabs",
     "facebookPage": "https://www.facebook.com/saucelabs",
-    "linkedInPage": "https://www.linkedin.com/company/sauce-labs/"
+    "linkedInPage": "https://www.linkedin.com/company/sauce-labs/",
+    "checkoutCompletePage": "https://www.saucedemo.com/checkout-complete.html",
+    "overviewPage": "https://www.saucedemo.com/checkout-step-two.html"
 }

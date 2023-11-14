@@ -6,7 +6,7 @@ Feature: Cart Feature
   And A user clicks a "cart" button on Inventory Page
   Then A user see added element in a cart
 
-  Scenario: Deleting Item from Cart Test
+  Scenario: Product deletinging from cart on Cart Page Test
   Given A user is logged in
   When A user adds 1 item in inventory to cart
   And A user clicks a "cart" button on Inventory Page

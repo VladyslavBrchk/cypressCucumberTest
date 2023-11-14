@@ -17,7 +17,7 @@ Feature: Inventory Feature
   Then A user see "1" near cart button
   And The button near 1 item in inventory changed into "Remove"
 
-  Scenario: Product deletinging to cart Test
+  Scenario: Product deletinging from cart on Inventory Page Test
   Given A user is logged in
   When A user adds 1 item in inventory to cart
   And A user deletes 1 item in inventory from cart
@@ -30,8 +30,10 @@ Feature: Inventory Feature
   And A user clicks a "burger menu" button on Inventory Page
   And A user clicks a "logout" button on Inventory Page
   And A user login with the username "standard_user" and password "secret_sauce"
-  Then A user is redirected to Inventory and logged in
+  Then A user is redirected to "Inventory Page"
+  And A user see items and cart
   And A user see "1" near cart button
+  And The button near 1 item in inventory changed into "Remove"
 
   Scenario: Footer Links Test
   Given A user is logged in

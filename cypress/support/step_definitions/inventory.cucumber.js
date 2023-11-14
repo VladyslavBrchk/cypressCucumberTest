@@ -53,12 +53,19 @@ Then('A user is redirected to {string}', (page) => {
     switch (page) {
         case "Login Page": cy.url().should('eq', validURL.loginPage);
             break;
+        case "Inventory Page": cy.url().should('eq', validURL.inventoryPage);
+            break;
         case "Twitter Page": cy.url().should('eq', validURL.twitterPage);
             break;
         case "Facebook Page": cy.url().should('eq', validURL.facebookPage);
             break;
         case "LinkedIn Page": cy.url().should('eq', validURL.linkedInPage);
             break;
+        case "Checkout Complete Page": cy.url().should('eq', validURL.checkoutCompletePage);
+            break;
+        case "Overview Page": cy.url().should('eq', validURL.overviewPage);
+            break;
+
     }
 })
 
