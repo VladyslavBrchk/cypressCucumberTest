@@ -1,5 +1,4 @@
 class InventoryPage {
-
     elements = {
         inventoryBurger: () => cy.get('#react-burger-menu-btn'),
         logoutButton: () => cy.get('#logout_sidebar_link'),

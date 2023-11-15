@@ -1,5 +1,4 @@
 class CheckoutOnePage {
-
     elements = {
         firstNameInput: () => cy.get('input#first-name'),
         lastNameInput: () => cy.get('input#last-name'),

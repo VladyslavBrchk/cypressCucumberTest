@@ -1,5 +1,4 @@
 class CheckoutCompletePage {
-
     elements = {
         completeMsg: () => cy.get('.complete-header')
     }    

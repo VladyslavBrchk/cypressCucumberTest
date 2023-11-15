@@ -1,5 +1,4 @@
 class LoginPage {
-
     elements = {
         usernameInput: () => cy.get('input#user-name'),
         passwordInput: () => cy.get('input#password'),

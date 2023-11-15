@@ -16,5 +16,5 @@ Feature: Checkout Feature
   When A user adds 1 item in inventory to cart
   And A user complete checkout with random credentials
   Then A user is redirected to "Overview Page"
-  Then A total sum in checkout is valid
+  And A total sum in checkout is valid
     

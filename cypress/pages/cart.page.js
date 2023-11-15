@@ -1,5 +1,4 @@
 class CartPage {
-
     elements = {
         checkoutButton: () => cy.get('#checkout'),
         cartItemRemoveButton: () => cy.get('.cart_item .btn'),
